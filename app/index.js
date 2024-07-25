@@ -4,7 +4,7 @@ import { preferences } from "user-settings";
 import * as util from "../common/utils";
 
 // Background Animation
-import * as document from "document";
+import * as doc from "document";
 
 const myAnimatedBG = document.getElementById("myAnimatedBG");
 
@@ -47,7 +47,7 @@ clock.ontick = (evt) => {
 
 //Background Color function using Settings
 import { me } from "appbit";
-import * as document from "document";
+import * as document1 from "document";
 import * as fs from "fs";
 import * as messaging from "messaging";
 
