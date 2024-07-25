@@ -1,6 +1,8 @@
 {
-  "devDependencies": {
-    "@fitbit/sdk": "~6.0.0"
+"devDependencies": {
+    "@fitbit/sdk": "~7.1.0-pre.0",
+    "@fitbit/sdk-cli": "~1.8.0-pre.10",
+    "@fitbit/sdk-build-targets": "cmengler/fitbit-sdk-build-targets"
   },
   "fitbit": {
     "appUUID": "8ff5069d-b913-4320-ba23-44bc45210ecb",
@@ -13,8 +15,8 @@
       "access_activity"
     ],
     "buildTargets": [
-      "atlas",
-      "vulcan"
+      "hera",
+      "rhea"
     ],
     "i18n": {
       "en-US": {
@@ -24,6 +26,7 @@
     "defaultLanguage": "en-US"
   },
   "scripts": {
-    "build": "fitbit-build"
+    "build": "fitbit-build",
+    "debug": "fitbit"
   }
 }
