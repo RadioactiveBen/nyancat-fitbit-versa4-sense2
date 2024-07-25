@@ -4,6 +4,8 @@
 
 This Fitbit clock features the classic Nyan Cat animation on a simple clockface design.
 
+Sideload with https://github.com/cmengler/fitbit-app-versa4
+
 This clock is design for Fitbit Sense and Versa 3 so other versions are not compatible. 
 
 ### Features 
